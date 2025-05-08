@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "EmailService.API.Controllers.EmailController",
+    "Method": "GetEmailById",
+    "RelativePath": "api/Email/{emailId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "emailId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmailService.API.Controllers.EmailController",
+    "Method": "GetAllEmails",
+    "RelativePath": "api/Email/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmailService.API.Controllers.EmailController",
+    "Method": "SendBulkEmail",
+    "RelativePath": "api/Email/send-bulk-emails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailService.API.DTOs.BulkEmailRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmailService.API.Controllers.EmailController",
+    "Method": "SendSingleEmailAsync",
+    "RelativePath": "api/Email/send-single-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailService.API.DTOs.EmailRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

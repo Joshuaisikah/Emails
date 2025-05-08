@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "EmailService.API\\EmailService.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "EmailService.Frontend\\EmailService.Frontend.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "EmailService.Console.Client\\EmailService.Console.Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
